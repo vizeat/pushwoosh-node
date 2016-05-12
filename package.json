@@ -1,0 +1,22 @@
+{
+  "name": "pushwoosh-node",
+  "version": "0.0.0",
+  "description": "Send push notification with the Pushwoosh API",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "push",
+    "notification",
+    "pushwoosh"
+  ],
+  "author": "Jérémie Parker <jeremie@vizeat.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "lodash": "^4.12.0",
+    "request-promise": "^3.0.0"
+  }
+}
