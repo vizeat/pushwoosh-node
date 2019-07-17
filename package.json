@@ -5,7 +5,12 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "node lib/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "yarn publish --registry https://registry.eatwith.io && git push --follow-tags"
+  },
+  "publishConfig": {
+    "registry": "https://registry.eatwith.io",
+    "access": "restricted"
   },
   "keywords": [
     "push",
@@ -17,6 +22,7 @@
   "dependencies": {
     "bluebird": "^3.3.5",
     "lodash": "^4.12.0",
-    "request-promise": "^3.0.0"
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
   }
 }
