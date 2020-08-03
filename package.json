@@ -1,6 +1,6 @@
 {
   "name": "pushwoosh-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Send push notification with the Pushwoosh API",
   "main": "lib/index.js",
   "scripts": {
