@@ -1,16 +1,15 @@
 {
-  "name": "pushwoosh-node",
+  "name": "@vizeat/pushwoosh-node",
   "version": "1.0.1",
   "description": "Send push notification with the Pushwoosh API",
   "main": "lib/index.js",
   "scripts": {
     "start": "node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pub": "yarn publish --registry https://registry.eatwith.io && git push --follow-tags"
+    "pub": "yarn publish && git push --follow-tags"
   },
-  "publishConfig": {
-    "registry": "https://registry.eatwith.io",
-    "access": "restricted"
+  "publishConfig": { 
+    "registry":"https://npm.pkg.github.com"
   },
   "keywords": [
     "push",
