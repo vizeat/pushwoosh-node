@@ -1,6 +1,6 @@
 {
   "name": "@vizeat/pushwoosh-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Send push notification with the Pushwoosh API",
   "main": "lib/index.js",
   "scripts": {
@@ -8,8 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "pub": "yarn publish && git push --follow-tags"
   },
-  "publishConfig": { 
-    "registry":"https://npm.pkg.github.com"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "push",
